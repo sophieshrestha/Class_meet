@@ -12,8 +12,7 @@ import { Link } from 'react-router-dom';
 import { useAuth } from '../auth/useAuth';
 import { Avatar } from '../components/Avatar';
 import { Wordmark } from '../components/Wordmark';
-import { EmptyState } from '../components/EmptyState';
-import { BookIcon, PeopleIcon, LogoutIcon } from '../components/icons';
+import { LogoutIcon } from '../components/icons';
 
 function firstName(fullName: string): string {
   const first = fullName.trim().split(/\s+/)[0];
